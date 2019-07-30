@@ -104,7 +104,7 @@ def changing_alan
         }
      }
      
-     programmer_hash[:alan_key][:known_for] => "GUI"
+     programmer_hash[:alan_key[:known_for]] = "GUI"
      
      
 end
